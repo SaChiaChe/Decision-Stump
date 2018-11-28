@@ -1,5 +1,5 @@
 # Decision Stump
-A practie of decision stump.
+A practice of decision stump.
 
 ## How to run
 
@@ -23,16 +23,23 @@ The data is artificial generated as the following:
 ```
 
 then run the decision stump algorithm on it, 
+
 and output the avg E_in and E_out.
+
 E_out is calculated with: 
+
 0.5 + 0.3s*(|&#952;|-1)
 
 ### MultiDimension.py
 
 The data is multidimension.
+
 Run decision stump on each dimension and return the "best of the best".
+
 Output &#952;, s, error rate, and best dimension
+
 Then use the trained decision stump to predict the test data.
+
 Output the error rate of the prediction.
 
 ## Built With
