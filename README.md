@@ -16,9 +16,12 @@ There are 2 versions, one with artificial data and one for mutidimensional data
 ### ArtificialData.py
 
 The data is artificial generated.
+```
 (a) Generate x by a uniform distribution in [−1, 1].
+
 (b) Generate y by f(x) = ˜s(x) + noise where ˜s(x) = sign(x) and the noise flips the result with
 20% probability
+```
 
 then run the decision stump algorithm on it, 
 and output the avg E_in and E_out.
