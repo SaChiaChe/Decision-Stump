@@ -22,25 +22,18 @@ The data is artificial generated as the following:
 20% probability
 ```
 
-then run the decision stump algorithm on it, 
-
-and output the avg E_in and E_out.
-
-E_out is calculated with: 
-
-0.5 + 0.3s*(|&#952;|-1)
+then run the decision stump algorithm on it, <br/>
+and output the avg E_in and E_out.<br/>
+E_out is calculated with: <br/>
+0.5 + 0.3s*(|&#952;|-1)<br/>
 
 ### MultiDimension.py
 
-The data is multidimension.
-
-Run decision stump on each dimension and return the "best of the best".
-
-Output &#952;, s, error rate, and best dimension
-
-Then use the trained decision stump to predict the test data.
-
-Output the error rate of the prediction.
+The data is multidimension.<br/>
+Run decision stump on each dimension and return the "best of the best".<br/>
+Output &#952;, s, error rate, and best dimension<br/>
+Then use the trained decision stump to predict the test data.<br/>
+Output the error rate of the prediction.<br/>
 
 ## Built With
 
